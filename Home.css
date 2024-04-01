@@ -1,0 +1,122 @@
+
+
+body{
+    background-color: hsl(235, 18%, 26%);
+    
+}
+#Maininterface{
+    margin-left: 450px;
+    margin-top: 150px;
+    background-color: hsl(0, 0%, 100%);
+    width: 800px;
+    height: 540px;
+    border: 2px;
+    border-radius: 20px;
+}
+#imginterface{
+    position: relative;
+    left:360px;
+     bottom: 340px; 
+  
+}
+
+
+
+#imginterfaceimg{
+    width: 500px;
+    height: 520px;
+   
+   
+}
+
+pre{
+    font-size: 16px;
+    
+}
+pre,input,h1,label{
+    font-family:"[Roboto](https://fonts.google.com/specimen/Roboto)";
+    font-weight:  400, 700;
+    position: relative;
+    left: 20px;
+    top: 80px;
+}
+label{
+    font-size: 12px;
+    
+}
+input{
+    width: 350px;
+    height: 40px;
+   border-radius: 5px;
+    box-sizing: border-box;
+    margin: 8px;
+}
+input[type=submit]{
+    color: white;
+    background-color:  hsl(234, 29%, 20%);
+    position: relative;
+    left: 10px;
+}
+input[type=text]{
+    text-align: center;
+}
+.imgicon{
+    width:16px;
+    
+      
+}
+#email{
+    position: relative;
+    left: 10px;
+   
+}
+#error{
+    position: relative;
+    left: 170px;
+    color: red;
+}
+@media   (max-width: 900px) {
+    #Maininterface { width: 360px;
+        height: 900px;
+        background-color: white;
+        border: 2px;
+        border-radius: 0;
+       
+        margin-left: 100px;
+        
+    }
+    #interface{
+        position: relative;
+        right: 15px;
+        top: 470px;
+    }
+    #imginterfaceimg{ 
+        position: relative;
+        right: 580px;
+         bottom:10px ;
+         width: 800px; 
+       }
+       #imginterface{
+        border-radius: 0;
+       }
+      
+}
+@media only screen and (max-width:1400px){
+    body{
+        background-color: white;
+        width: 100%;
+       
+    }
+    #formmain{
+        position: relative;
+        bottom: 250px;
+        width: 100%;
+    }
+    #imginterfaceimg{ 
+        position: relative;
+        right: 380px;
+         width: 100%; 
+        
+       }
+     
+}
